@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
 import {ILLogo} from '../../assets';
 
-export default function Splash() {
+export default function Splash({navigation}) {
+  useEffect(() => {
+    setTimeout(() => {
+      navigation.replace('GetStarted');
+    }, 3000);
+  }, []);
   return (
     <View style={styles.page}>
       <ILLogo />
