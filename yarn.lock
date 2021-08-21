@@ -1113,6 +1113,15 @@
   "resolved" "https://registry.npmjs.org/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz"
   "version" "1.1.0"
 
+"@react-navigation/bottom-tabs@^6.0.5":
+  "integrity" "sha512-GytjJUzacHhe3C24HFrPl881Donrw2m+3JBNqMJALxMRjSA8yY72+l16bZR9YFsrywSHVSbjxIfzqtGb8rIVJg=="
+  "resolved" "https://registry.npmjs.org/@react-navigation/bottom-tabs/-/bottom-tabs-6.0.5.tgz"
+  "version" "6.0.5"
+  dependencies:
+    "@react-navigation/elements" "^1.1.0"
+    "color" "^3.1.3"
+    "warn-once" "^0.1.0"
+
 "@react-navigation/core@^6.0.1":
   "integrity" "sha512-mVdvBDYdz8uzLQHokmVdX/xC4rS7NIkD1FN/yaGdovVzYApAhM+UGd3w1zskjyCSyXaVHHOwV59ZGVew+84xfQ=="
   "resolved" "https://registry.npmjs.org/@react-navigation/core/-/core-6.0.1.tgz"
@@ -1128,6 +1137,11 @@
   "integrity" "sha512-WtaQXZ1y0aVQlQegyS2quOeSSqBvASZThdruW9AAgVbqs6qJMwbKjE5SOEsZS2jQX8OoeZNz+8bJHqVflynunw=="
   "resolved" "https://registry.npmjs.org/@react-navigation/elements/-/elements-1.0.4.tgz"
   "version" "1.0.4"
+
+"@react-navigation/elements@^1.1.0":
+  "integrity" "sha512-jZncciZPGuoP6B6f+Wpf6MYSSYy86B2HJDbFTCtT5xZV0w6V9GgCeqvSTOEAxifZrmKl8uDxsr0GrIxgQE8NxA=="
+  "resolved" "https://registry.npmjs.org/@react-navigation/elements/-/elements-1.1.0.tgz"
+  "version" "1.1.0"
 
 "@react-navigation/native-stack@^6.0.5":
   "integrity" "sha512-2gYLzs71D2PJk7SKzDZjMjc2lrwUytYGnR6QQhBlLtGm54R6DKyMtmisxMMz1KzMlI9JhtawVxSZ5SHP2VlSlA=="
@@ -2225,6 +2239,13 @@
   dependencies:
     "color-name" "1.1.3"
 
+"color-convert@^1.9.3":
+  "integrity" "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg=="
+  "resolved" "https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz"
+  "version" "1.9.3"
+  dependencies:
+    "color-name" "1.1.3"
+
 "color-convert@^2.0.1":
   "integrity" "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="
   "resolved" "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
@@ -2232,7 +2253,7 @@
   dependencies:
     "color-name" "~1.1.4"
 
-"color-name@~1.1.4":
+"color-name@^1.0.0", "color-name@~1.1.4":
   "integrity" "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
   "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
   "version" "1.1.4"
@@ -2242,10 +2263,26 @@
   "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz"
   "version" "1.1.3"
 
+"color-string@^1.6.0":
+  "integrity" "sha512-c/hGS+kRWJutUBEngKKmk4iH3sD59MBkoxVapS/0wgpCz2u7XsNloxknyvBhzwEs1IbV36D9PwqLPJ2DTu3vMA=="
+  "resolved" "https://registry.npmjs.org/color-string/-/color-string-1.6.0.tgz"
+  "version" "1.6.0"
+  dependencies:
+    "color-name" "^1.0.0"
+    "simple-swizzle" "^0.2.2"
+
 "color-support@^1.1.3":
   "integrity" "sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg=="
   "resolved" "https://registry.npmjs.org/color-support/-/color-support-1.1.3.tgz"
   "version" "1.1.3"
+
+"color@^3.1.3":
+  "integrity" "sha512-aBl7dZI9ENN6fUGC7mWpMTPNHmWUSNan9tuWN6ahh5ZLNk9baLJOnSMlrQkHcrfFgz2/RigjUVAjdx36VcemKA=="
+  "resolved" "https://registry.npmjs.org/color/-/color-3.2.1.tgz"
+  "version" "3.2.1"
+  dependencies:
+    "color-convert" "^1.9.3"
+    "color-string" "^1.6.0"
 
 "colorette@^1.0.7", "colorette@^1.2.2":
   "integrity" "sha512-ecORCqbSFP7Wm8Y6lyqMJjexBQqXSF7SSeaTyGGphogUjBlFP9m9o08wy86HL2uB7fMTxtOUzLMk7ogKcxMg1w=="
@@ -3765,6 +3802,11 @@
   "integrity" "sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0="
   "resolved" "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz"
   "version" "0.2.1"
+
+"is-arrayish@^0.3.1":
+  "integrity" "sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ=="
+  "resolved" "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz"
+  "version" "0.3.2"
 
 "is-bigint@^1.0.1":
   "integrity" "sha512-zB9CruMamjym81i2JZ3UMn54PKGsQzsJeo6xvN3HJJ4CAsQNB6iRutp2To77OfCNuoxspsIhzaPoO1zyCEhFOg=="
@@ -6524,6 +6566,13 @@
     "bplist-creator" "0.0.8"
     "bplist-parser" "0.2.0"
     "plist" "^3.0.1"
+
+"simple-swizzle@^0.2.2":
+  "integrity" "sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo="
+  "resolved" "https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz"
+  "version" "0.2.2"
+  dependencies:
+    "is-arrayish" "^0.3.1"
 
 "sisteransi@^1.0.5":
   "integrity" "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg=="

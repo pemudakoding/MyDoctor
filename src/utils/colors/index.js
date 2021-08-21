@@ -1,6 +1,7 @@
 const mainColors = {
   green1: '#0BCAD4',
   dark1: '#112340',
+  dark2: '#495A75',
   gray1: '#7D8797',
   gray2: '#E1E1E1',
 };
@@ -9,9 +10,12 @@ const colors = {
   secondary: mainColors.dark1,
   white: 'white',
   black: 'black',
+
   text: {
     primary: mainColors.dark1,
     secondary: mainColors.gray1,
+    menuInactive: mainColors.dark2,
+    menuActive: mainColors.green1,
   },
   button: {
     primary: {
