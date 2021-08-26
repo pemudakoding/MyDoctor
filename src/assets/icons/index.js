@@ -10,6 +10,8 @@ import ICHospitals from './ic-hospitals.svg';
 import ICHospitalsActive from './ic-hospitals-active.svg';
 import ICStar from './ic-star.svg';
 import ICNext from './ic-next.svg';
+import ICSendLight from './ic-send-light.svg';
+import ICSendDark from './ic-send-dark.svg';
 
 export {
   ICBackDark,
@@ -24,4 +26,6 @@ export {
   ICHospitalsActive,
   ICStar,
   ICNext,
+  ICSendLight,
+  ICSendDark,
 };

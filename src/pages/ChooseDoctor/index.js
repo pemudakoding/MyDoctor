@@ -4,15 +4,20 @@ import {DMDoctor1} from '../../assets';
 import {Header, ListDoctor} from '../../components';
 import {colors} from '../../utils';
 
-export default function ChooseDoctor() {
+export default function ChooseDoctor({navigation}) {
   return (
     <View style={styles.page}>
-      <Header title="Pilih Dokter Anak" type="dark" />
+      <Header
+        title="Pilih Dokter Anak"
+        type="dark"
+        onPress={() => navigation.goBack()}
+      />
       <ListDoctor
         type="next"
         profile={DMDoctor1}
         name="Alexander Janie"
         desc="Wanita"
+        onPress={() => navigation.navigate('Chatting')}
       />
       <ListDoctor
         type="next"
