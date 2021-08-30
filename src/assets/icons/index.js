@@ -12,6 +12,10 @@ import ICStar from './ic-star.svg';
 import ICNext from './ic-next.svg';
 import ICSendLight from './ic-send-light.svg';
 import ICSendDark from './ic-send-dark.svg';
+import ICEditProfile from './ic-edit-profile.svg';
+import ICLanguage from './ic-language.svg';
+import ICRate from './ic-rate.svg';
+import ICHelp from './ic-help.svg';
 
 export {
   ICBackDark,
@@ -28,4 +32,8 @@ export {
   ICNext,
   ICSendLight,
   ICSendDark,
+  ICEditProfile,
+  ICLanguage,
+  ICRate,
+  ICHelp,
 };
