@@ -3,13 +3,13 @@ import {ScrollView, StyleSheet, View} from 'react-native';
 import {Button, Gap, Header, Input, Profile} from '../../components';
 import {colors} from '../../utils';
 
-export default function UpdateProfile() {
+export default function UpdateProfile({navigation}) {
   return (
     <View style={styles.page}>
-      <Header title="Update Profile" />
+      <Header title="Update Profile" onPress={() => navigation.goBack()} />
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.content}>
-          <Profile />
+          <Profile isRemove />
           <Gap height={26} />
           <Input label="Full Name" />
           <Gap height={24} />
@@ -19,7 +19,10 @@ export default function UpdateProfile() {
           <Gap height={24} />
           <Input label="Password" />
           <Gap height={40} />
-          <Button title="Save Profile" />
+          <Button
+            title="Save Profile"
+            onPress={() => navigation.goBack('UserProfile')}
+          />
         </View>
       </ScrollView>
     </View>
